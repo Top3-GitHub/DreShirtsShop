@@ -1,0 +1,134 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: Roboto, arial;
+}
+
+body {
+  background-color: rgb(42, 42, 42);
+  text-decoration: none;
+}
+
+#header {
+  text-align: center;
+  display: block;
+  text-decoration: none;
+}
+
+header img {
+  display: block;
+}
+
+#wrapper {
+  margin: 0 auto;
+  background-color: rgb(33, 33, 33);
+  max-width: 90%;
+}
+
+a {
+  text-decoration: none;
+}
+
+a.menu {
+  color: white;
+  display: inline-block;
+  background-color: rgb(42, 40, 40);
+  text-align: center;
+  width: 25%;
+  padding: 15px 30px;
+  border: 2px solid rgb(42, 40, 40);
+  text-decoration: none;
+  margin: 0px 0px 23px 0px;
+}
+
+a.menu:hover {
+  background-color: #757474;
+}
+
+a.active {
+  background-color: #919090;
+}
+
+p.pcontent-box-cont {
+  color: white;
+  margin: 18px 18px 23px 18px;
+  font-size: 18px;
+  padding: 0px 0px 10px 0px;
+  text-align: center;
+  overflow: hidden;
+  animation-name: appear;
+  animation-duration: 1.75s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+#footer {
+  background-color: rgb(61, 61, 61);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+p.footer-content {
+  margin: 0px 24px;
+  text-align: center;
+  padding: 13px 0px 13px 0px;
+}
+
+p.footer-owned {
+  margin: 0px 24px;
+  padding: 13px 0px;
+  text-align: center;
+}
+
+#prices-list {
+  text-align: center;
+}
+
+a.pprices-list {
+  color: white;
+  display: inline-block;
+  background-color: rgb(42, 40, 40);
+  text-align: center;
+  width: 15%;
+  padding: 15px 30px;
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: none;
+  margin: 0px 5px 23px 5px;
+  animation-name: appear;
+  animation-duration: 1.75s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+a.pprices-list:hover {
+  border: 2px solid rgba(255, 255, 255, 0.596);
+  background-color: rgb(46, 46, 46);
+}
+
+p.phow-to-buy {
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  overflow: hidden;
+  margin: 0px 0px 376px 0px;
+  animation-name: appear;
+  animation-duration: 1.75s;
+  animation-delay: 0.1s;
+  animation-fill-mode: both;
+  animation-direction: alternate;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
